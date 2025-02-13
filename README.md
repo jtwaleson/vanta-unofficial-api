@@ -14,6 +14,9 @@ I've confirmed this to work on the EU Vanta instance in February 2025.
 
 ## Usage
 
+Sign into Vanta and open the developer tools. Find the `connect.sid` cookie and use it below. You probably have to do this every couple of days or weeks.
+
+
 ```bash
-python vanta.py --connect-sid <connect-sid> --task-title "Using other laptop/desktop computers" --host app.eu.vanta.com
+python vanta.py --connect-sid '<connect-sid>' --task-title 'Using other laptop/desktop computers" --host app.eu.vanta.com
 ```
